@@ -1,0 +1,10 @@
+[package]
+name = "mc-trust-core"
+description = "Name-constrained cross-certificates for the Russian Mintsifry root CA"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+ring = "0.17"
